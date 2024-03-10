@@ -1,0 +1,68 @@
+Microsoft Windows [Version 10.0.19045.4046
+]
+(c) Microsoft Corporation. All rights reserved.
+
+(myenv) C:\SPCode\LangGraph>c:/SPCode/LangGraph/myenv/Scripts/python.exe c:/SPCode/LangGraph/main.py
+{'supervisor': {'next': 'Web_Searcher'
+    }
+}
+----
+{'Web_Searcher': {'messages': [HumanMessage(content="### Summary of the First Source: TechTarget
+
+#### Multimodal AI:
+- **Description**: Multimodal AI expands beyond traditional data processing to include various types of input like text, images, and sound.
+- **Applications**: Enables models to process diverse sensory information, mimicking human abilities.
+- **Example**: OpenAI's GPT-4 model can respond to visual and audio input, suggesting recipes based on images.
+- **Benefits**: Enhances diagnostic accuracy in healthcare, extends design and coding capabilities, and offers new data for learning.
+
+#### Agentic AI:
+- **Definition**: Marks a shift from reactive to proactive AI, exhibiting autonomy and the ability to act independently.
+- **Examples**: AI agents can collect data, analyze patterns, and take actions without direct human intervention.
+- **Applications**: Used in environmental monitoring, financial management, and automation of tasks like reservations and trip planning.
+
+#### Open Source AI:
+- **Significance**: Reduces costs and expands AI access by allowing developers to build on existing code.
+- **Engagement**: Generative AI projects saw increased developer engagement on platforms like GitHub.
+- **Advantages**: Encourages transparency, ethical development, and democratized access to sophisticated AI models.
+
+#### Retrieval-Augmented Generation:
+- **Purpose**: Addresses the issue of hallucinations in generative AI tools by enhancing accuracy and relevance.
+- **Technique**: Blends text generation with information retrieval to produce more contextually aware responses.
+- **Benefits**: Reduces model size, increases speed, and lowers costs in producing accurate AI-generated content.
+
+#### Customized Enterprise Generative AI Models:
+- **Focus**: Shifts towards smaller, narrow-purpose models catering to niche 
+requirements for business use cases.
+- **Approach**: Modifies existing AI models to meet specific needs rather than building new models from scratch.
+- **Advantages**: 
+Cheaper, domain-specific models can improve privacy, security, and cater to specialized markets.
+
+### Insights Required:
+- **Multimodal AI**: Provide insights on the diverse applications of multimodal AI and its impact on industries like healthcare and job functions.
+- **Agentic AI**: Discuss the potential applications of agentic AI in various sectors and its role in autonomy and proactivity.
+- **Open Source AI**: Analyze the benefits and challenges of open source AI, focusing on transparency, democratized access, and ethical development.
+- **Retrieval-Augmented Generation**: Explore the implications of retrieval-augmented generation in enhancing AI-generated content accuracy and relevance.
+- **Customized Enterprise Generative AI Models**: Evaluate the advantages of customized generative AI models for businesses, addressing privacy, security, and niche market needs.", name='Web_Searcher')]}}
+----
+{'supervisor': {'next': 'Insight_Researcher'
+                }
+            }
+----
+{'Insight_Researcher': {'messages': [HumanMessage(content='### Insights for Multimodal AI:
+1. **Diverse Applications**: Multimodal AI, which integrates different AI techniques like natural language processing and computer vision, has a wide range of applications across various industries. It enables systems to process information from multiple sources simultaneously and provide output in diverse media formats. Industries like healthcare, finance, manufacturing, e-commerce, and agriculture are being transformed by the capabilities of multimodal AI.
+   
+2. **Impact on Industries**: The introduction of multimodal AI is revolutionizing industries beyond traditional data processing. It allows for a richer understanding of data by combining different modalities such as text, images, audio, and video. This technology has the potential to enhance processes in sectors like healthcare, where medical imaging analysis can be combined with patient history and genetic information for more accurate diagnoses.
+
+### 
+Insights for Agentic AI:
+1. **Potential Applications**: Agentic AI represents a significant shift towards autonomous and proactive systems that can act independently. This advancement in AI technology has the potential to create a transformative impact on various sectors such as fraud prevention, process automation, content generation, and data-driven insights. By enabling AI agents to understand their environment, set goals, and act without direct human intervention, agentic AI is poised to revolutionize how work is conducted across different industries.
+
+2. **Role in Autonomy**: Agentic AI is not merely about automation but about creating a paradigm shift in how tasks are accomplished. The ability of AI agents to analyze patterns, detect anomalies, and learn from historical data is particularly valuable in sectors like fraud detection, where quick and accurate responses are crucial. This level of autonomy in AI systems opens up new possibilities for businesses to streamline operations, enhance decision-making processes, and improve overall efficiency.', name='Insight_Researcher')
+                    ]
+                }
+            }
+----
+{'supervisor': {'next': 'FINISH'
+                }
+            }
+----
