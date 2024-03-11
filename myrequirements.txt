@@ -4,6 +4,17 @@ python-dotenv			# MUST - to load env viaraoble from .env
 langchain			# For GEN AI projects - Orchestrator
 ctransformers>=0.2.24
 tensorflow
+tf-keras
+
+#### For Embeddings and Cosine similarity search
+sentence-transformers
+
+#### For AUdio classification
+datasets
+soundfile
+#ffmpeg
+librosa #The librosa library may need to have ffmpeg installed.
+
 #pytorch
 ##openai
 ##huggingface_hub
