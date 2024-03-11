@@ -1,10 +1,19 @@
-# Access to env varibales
+import sys
+sys.path.append('C:/Users/a138821/OneDrive - Eviden/Sujata/Dynamic/Work/SPCode/SPPy/')
+# load a source module from a file
+
+from Common import initEnv 
+initEnv.spInitEnv
+import Common
+Common.initEnv.spInitEnv
+print (Common.initEnv.spInitEnv)
+print (Common.initEnv.getPath)
+
+
 import os
-# Set up to read API keys from .env
-#install dotenv
-from dotenv import find_dotenv, load_dotenv
-load_dotenv("../.env")             # now you have access to os.environ["HUGGINGFACEHUB_API_TOKEN"]
 print("Hello ",os.environ["HUGGINGFACEHUB_API_TOKEN"])
+print("Serpapi",__file__)
+print(os.getcwd())
 
 #Ref https://www.sitepoint.com/langchain-python-complete-guide/
 from langchain.llms import OpenAI

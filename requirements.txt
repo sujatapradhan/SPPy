@@ -4,9 +4,9 @@ python-dotenv			# MUST - to load env viaraoble from .env
 langchain			# For GEN AI projects - Orchestrator
 
 
-openai
-huggingface_hub
-streamlit			# quick web by streamlit run main.py
+##openai
+##huggingface_hub
+##streamlit			# quick web by streamlit run main.py
 
 
 #langchain                  	# alrdeay there   
@@ -20,7 +20,7 @@ streamlit			# quick web by streamlit run main.py
 
 
 #tensorflow crashcourse
-#####setuptools
+##setuptools                      # used for creating python packages
 #deprecated sklearn
 #####scikit-learn
 #####tensorflow
