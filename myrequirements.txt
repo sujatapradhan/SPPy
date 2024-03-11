@@ -6,6 +6,9 @@ ctransformers>=0.2.24
 tensorflow
 tf-keras
 
+#### For transformer tasks like  translation, "zero-shot-audio-classification",conversational, summarization
+torch
+
 #### For Embeddings and Cosine similarity search
 sentence-transformers
 
@@ -14,6 +17,10 @@ datasets
 soundfile
 #ffmpeg
 librosa #The librosa library may need to have ffmpeg installed.
+
+#### display html
+#from IPython.display import display, HTML #usage display(HTML(response))
+
 
 #pytorch
 ##openai
