@@ -3,11 +3,11 @@ sys.path.append('C:/Users/a138821/OneDrive - Eviden/Sujata/Dynamic/Work/SPCode/S
 # load a source module from a file
 
 from Common import initEnv 
-initEnv.spInitEnv
+initEnv.spInitEnv()
 import Common
-Common.initEnv.spInitEnv
-print (Common.initEnv.spInitEnv)
-print (Common.initEnv.getPath)
+Common.initEnv.spInitEnv()
+print (Common.initEnv.spInitEnv())
+print (Common.initEnv.getPath())
 
 
 import os
