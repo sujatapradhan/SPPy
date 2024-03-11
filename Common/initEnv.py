@@ -1,7 +1,4 @@
-
-
 def spInitEnv():
-    print("spInitEnv", __file__)
     # Access to env varibales
     #import os
     # Set up to read API keys from .env

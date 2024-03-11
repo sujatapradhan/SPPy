@@ -1,7 +1,6 @@
 import sys
 sys.path.append('C:/Users/a138821/OneDrive - Eviden/Sujata/Dynamic/Work/SPCode/SPPy/')
 # load a source module from a file
-
 from Common import initEnv 
 initEnv.spInitEnv()
 import Common
